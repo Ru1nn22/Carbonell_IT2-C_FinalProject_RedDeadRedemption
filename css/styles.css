@@ -11360,6 +11360,6 @@ header.masthead .masthead-content .masthead-subheading {
   }
   .Footer-esrb {
    width: 150px;
-   margin-left: 870px;
-   height:  auto;
+   margin-left: auto;
+   margin-right: auto;
 }
