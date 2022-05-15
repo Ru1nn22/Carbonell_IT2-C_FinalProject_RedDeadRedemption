@@ -1,3 +1,19 @@
+<?php 
+session_start();
+
+if (isset($_SESSION['ses_username']) === false) {
+    header("Location: index.php?logfirst");
+}
+elseif (isset($_REQUEST['logout'])===true) {
+    session_destroy();
+    header("Location: index.php?logout ");
+}
+
+?>
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,9 +53,8 @@
                         <li class="nav-item"><a class="nav-link" href="news.php">News</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="signup.php">Sign Up</a></li>
-                        <li class="nav-item"><a class="nav-link" href="Login.php">Log In</a></li>
-                        <li class="nav-item"><a class="nav-link" href="buynow.php">Buy Now</a></li>         
+                        <li class="nav-item"><a class="nav-link" href="?logout">Log out</a></li>
+                        <li class="nav-item"><a class="nav-link" href="buynow.php">Buy Now</a></li>
                     </ul>
                 </div>
             </div>
@@ -48,28 +63,20 @@
         <header class="masthead text-center text-white">
             <div class="masthead-content">
                 <div class="container px-5">
-                    <div class="Product"><img class="Game" src="assets/img/Game.jpeg" href="https://www.rockstargames.com/newswire/article/9k1248838o1892/The-Red-Dead-Redemption-2-Special-Edition-Ultimate-Edition-and-Collect">
-                    <!-- Buy Now form -->
-
-                    <form class="Buy-form" method="#">
-                    <div class="Select">
-                    <label>Select Platform </label>
-                    <select>
-                        <option value="PC Download">PC Download</option>
-                        <option value="XBOX Digital">XBOX Digital</option>
-                        <option value="Play Station 4 Digital">Play Station 4 Digital</option>
-                    </select>
+                    <h1 class="masthead-heading mb-0">!WANTED!</h1>
+                    <p style="font-size: 250%;">DEAD OR ALIVE</p>
+                    <div class="Player">
+                        <img class="profile" src="assets/img/06.jpg">
                     </div>
-                    <div class="form-group">
-                    <button type="submit" class="btn btn-primary rounded submit p-3 px-5" name="login_button">Buy Now</button>
-                </div>
-                </form>
+                    <h2 class="masthead-subheading mb-0"><?php echo $_SESSION['ses_username'];  ?></h2>
+                    <p style="font-size: 200%">Baptismal name is UNKOWN at this time, but he is WANTED FOR MURDER, ROBBERY, FRAUD, ASSULT and THEFT</p>
+                    <p style="font-size: 150%">Current Reward is $$$$$$</p>
+                    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Play Now</a>
 
                 </br>
                 </div>
             </div>
         </header>
-    
     </br>
     </br>
     </br>

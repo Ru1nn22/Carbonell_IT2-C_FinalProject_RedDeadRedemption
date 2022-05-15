@@ -1,3 +1,28 @@
+<?php 
+session_start();
+
+$acc_username = "123";
+$acc_password = "123";
+$acc_email = "crbnll12200@gmail.com";
+
+$url_add = "http://".$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
+
+if(isset($_REQUEST['login_button']) == true){
+    if($_REQUEST['form_username'] != $acc_username){
+    header("Location: ".$url_add."?notexist");
+}
+    elseif ($_REQUEST['form_username'] == $acc_username && $_REQUEST['form_password'] != $acc_password){
+    header("Location: ".$url_add."?wrongpass");
+  } 
+  elseif ($_REQUEST['form_username'] == $acc_username && $_REQUEST['form_password'] == $acc_password){
+    header("Location: ".$url_add."?success");
+  }
+$_SESSION['ses_username'] = $acc_username;
+$_SESSION['ses_password'] = $acc_password;
+$_SESSION['ses_email'] = $acc_email;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,7 +62,6 @@
                         <li class="nav-item"><a class="nav-link" href="news.php">News</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="signup.php">Sign Up</a></li>
                         <li class="nav-item"><a class="nav-link" href="Login.php">Log In</a></li>
                         <li class="nav-item"><a class="nav-link" href="buynow.php">Buy Now</a></li>         
                     </ul>
@@ -51,8 +75,28 @@
                     <h1 class="masthead-heading mb-0">Log In</h1>
                     <!-- Login up form -->
 
-                    <form class="login-form" method="#">
+                    <form class="login-form" >
                         <div class="form-group"> 
+                        <?php
+
+                        if(isset($_REQUEST['notexist'])=== true){
+
+                        echo "<div class='alert alert-danger' role='alert'> Username does not exist. </br> </div>";
+                        }
+                        elseif (isset($_REQUEST['wrongpass'])=== true){
+
+                        echo "<div class='alert alert-warning' role='alert'>  Incorrect Password. </div>";
+                        }
+                        elseif (isset($_REQUEST['success']) === true){
+                        echo "<div class='alert alert-success' role='alert'>  Redirecting. </div>";
+                        header("Refresh: 5 url=profile.php");  
+                        }
+                        elseif (isset($_REQUEST['logfirst']) === true ){
+                        echo "<div class='alert alert-warning' role='alert'>  Please login first. </div>";
+                        }
+                         
+                        ?> 
+
                          <input type="text" class="form-control rounded-left" placeholder="Username or E-email" name="form_username" required>
                         </div>
                      <div class="form-group d-flex">
