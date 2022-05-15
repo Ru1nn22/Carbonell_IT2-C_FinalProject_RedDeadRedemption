@@ -38,8 +38,8 @@
                         <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                         <li class="nav-item"><a class="nav-link" href="signup.php">Sign Up</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Log In</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Buy Now</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Login.php">Log In</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#!">Buy Now</a></li>         
                     </ul>
                 </div>
             </div>
@@ -48,33 +48,29 @@
         <header class="masthead text-center text-white">
             <div class="masthead-content">
                 <div class="container px-5">
-                    <h1 class="masthead-heading mb-0">Sign up</h1>
-                    <!-- Sign up form -->
+                    <h1 class="masthead-heading mb-0">Log In</h1>
+                    <!-- Login up form -->
 
                     <form class="login-form" method="#">
                         <div class="form-group"> 
-                         <input type="text" class="form-control rounded-left" placeholder="Username" name="form_username" required>
+                         <input type="text" class="form-control rounded-left" placeholder="Username or E-email" name="form_username" required>
                         </div>
                      <div class="form-group d-flex">
                         <input type="password" class="form-control rounded-left" placeholder="Password" name="form_password"required>
                      </div>
-                     <div class="form-group d-md-flex">
+                     <div class="form-group d-flex">
                         <div class="w-50">
-                                <label class="checkbox-wrap checkbox-primary">
-                                      <input type="checkbox" checked>Remember me?
-                                      <span class="checkmark"></span>
+                        <label class="checkbox-wrap checkbox-primary">
+                                      <input type="checkbox" checked>Remember me?<span class="checkmark"></span>
                                 </label>
                                 </div>
-                        <div class="forgot">
-                                    <a href="#">Forgot Password</a>
-                        </div>
                 </div>
                 <div class="form-group">
-                    <button type="submit" class="btn btn-primary rounded submit p-3 px-5" name="login_button">Register</button>
+                    <button type="submit" class="btn btn-primary rounded submit p-3 px-5" name="login_button">Login</button>
                 </div>
-                <div class="form-group">  
-                <p>Already have an account? <a href="Login.php">Sign in</a>.</p>
-                 </div>
+                <div class="form-group d-md-flex">
+                                    <a href="#">Forgot Password?</a>
+                        </div>
                 </form>
 
                 </br>
