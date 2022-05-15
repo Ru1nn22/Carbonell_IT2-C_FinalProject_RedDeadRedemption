@@ -11,9 +11,6 @@ elseif (isset($_REQUEST['logout'])===true) {
 
 ?>
 
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
