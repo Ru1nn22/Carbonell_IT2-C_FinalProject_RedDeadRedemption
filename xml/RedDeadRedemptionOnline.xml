@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE RedDeadRedemptionOnline [
+
+	<!ELEMENT RedDeadRedemptionOnline (header.body,footer)>
+	<!ELEMENT header (navbar)>
+	<!ELEMENT body (index.php,news.php,about.php,contact.php,signup.php,Login.php,buynow.php,profile.php)>
+	<!ELEMENT index.php (image1,image2,image3,image4,image5)>
+	<!ELEMENT news.php (image1,image2,image3)>
+	<!ELEMENT contact.php (image1)>
+	<!ELEMENT signup.php (form)>
+	<!ELEMENT login.php (form)>
+	<!ELEMENT buynow.php (form)>
+	<!ELEMENT form (select)>
+	<!ELEMENT profile.php (image1)>
+
+	<!ELEMENT logo (#PCDATA)>
+	<!ELEMENT home (#PCDATA)>
+	<!ELEMENT News (#PCDATA)>
+	<!ELEMENT About (#PCDATA)>
+	<!ELEMENT contact (#PCDATA)>
+	<!ELEMENT Signup (#PCDATA)>
+	<!ELEMENT login (#PCDATA)>
+	<!ELEMENT Buynow (#PCDATA)>
+	<!ELEMENT Logout (#PCDATA)>
+	<!ELEMENT button (#PCDATA)>
+	<!ELEMENT p5 (#PCDATA)>
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT user (#PCDATA)>
+
+	<!ATTLIST logo href CDATA #REQUIRED>
+	<!ATTLIST logo src CDATA #REQUIRED>
+	<!ATTLIST home href CDATA #REQUIRED>
+	<!ATTLIST News href CDATA #REQUIRED>
+	<!ATTLIST contact href CDATA #REQUIRED>
+	<!ATTLIST Signup href CDATA #REQUIRED>
+	<!ATTLIST Login href CDATA #REQUIRED>
+	<!ATTLIST Buynow href CDATA #REQUIRED>
+	<!ATTLIST Logout href CDATA #REQUIRED>
+	<!ATTLIST button href CDATA #REQUIRED>
+	<!ATTLIST p5 src CDATA #REQUIRED>
+	<!ATTLIST description href CDATA #REQUIRED>
+	<!ATTLIST user src CDATA #REQUIRED>
+
+]>
+
+<RedDeadRedemptionOnline>
+	<header>
+		<navbar>
+			<logo href = "#page-top">Sadie</logo>
+			<logo src = "assets/sadie.png">Sadie</logo>
+			<home href = "index.php">Home</home>
+			<News href = "news.php">News</News>
+			<About href = "about.php">About</About>
+			<contact href = "contact.php">contact</contact>
+			<Signup href = "signup.php">Sign up</Signup>
+			<Login href = "Login.php">Log in</Login>
+			<Buynow href = "buynow.php">Buy now</Buynow>
+			<Logout href = "?logout">Log out</Logout>
+		</navbar>
+	</header>
+	<body>
+		<index.php>
+			<title>Red Dead Redemption Online</title>
+			<button href ="#scroll">Learn More</button>
+			<image1>
+				<p5 src= "assets/img/01.jpg">Image 1</p5>
+				<subject>Explore The West</subject>
+				<description>Create your own story in the world of RED DEAD REDEMPTION and explore the desert, forest, swamps and emerging city of Saint Denis as an OUTLAW, BOUNTY HUNTER, DEPUTY or just a deranged GUNSLINGER. The Choice is YOURS We’re thieves in a world that don’t want us no more." -Arthur Morgan</description>
+			</image1>
+			<image2>
+				<p5 src = "assets/img/02.jpg">Image 2</p5>
+				<subject>Dress To Kill</subject>
+				<description>Cutomize your character to a wide variety of clothing, If you want your bounty picture to look nice. "Revenge is best served in style" -Clint Eastwood</description>
+			</image2>
+			<image3>
+				<p5 src = "assets/img/03.jpg">Image 3</p5>
+				<subject>Your Peacemaker</subject>
+				<description>Choose you prefer method of killing whether will it be revolvers, knife, rifle, repeaters, shotguns or poison. "Forgive me if I slip and stab you in the face." -Arthur Morgan</description>
+			</image3>
+			<image4>
+				<p5 src = "assets/img/04.jpg">Image 4</p5>
+				<subject>Ride With Your Steed</subject>
+				<description>Pick your self up with a brand new horse that could be your only friend in the Wild West, Feed and increase your bonding with your horse and you could do some trick that could held you out when killing. "That's a fine horse partner" -clint eastwood</description>
+			</image4>
+			<image5>
+				<p5 src = "assets/img/05.jpg">Image 5</p5>
+				<subject>Play With Friends</subject>
+				<description>Play with fellow Outlaws, rob all the gold on every state and together become and Infamous Gang. "Need More Guns?" -Arthur Morgan</description>
+			</image5>
+		</index.php>
+		<news.php>
+			<title>News</title>
+			<button href ="#scroll">Recent News</button>
+			<image1>
+				<p5 src = "assets/img/roger.jpg">Image 1</p5>
+				<subject>Roger Clark as Arthur Morgan Wins
+				Game Award</subject>
+				<description href = "https://celebmix.com/roger-clark-wins-first-game-award/">Learn More</description>
+			</image1>
+			<image2>
+				<p5 src = "assets/img/news1.jpg">Image 2</p5>
+				<subject>Best DLC Expansion Pack</subject>
+				<description href ="https://www.pcgamer.com/red-dead-onlines-latest-expansion-will-once-again-make-you-wish-it-was-singleplayer-dlc/">Learn More</description>
+			</image2>
+			<image3>
+				<p5 src = "assets/img/news2.jpg">Image 3</p5>
+				<subject>Boost You Game Performance with
+				Nvidia</subject>
+				<description href ="https://www.nvidia.com/en-us/geforce/news/red-dead-redemption-2-dlss-game-ready-driver/">Learn More</description>
+			</image3>
+		</news.php>
+		<about>
+			<title>About Red Dead Redemption</title>
+			<description> America, 1899. The end of the Wild West era has begun. After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him. -Official Description
+
+			Red Dead Redemption 2 is a western-themed action-adventure video game developed and published by Rockstar Games. It is the third entry in the Red Dead series and a prequel to 2010's Red Dead Redemption and was released on October 26th, 2018 on PlayStation 4, Xbox One and on November 5th, 2019 for PC. Set in a fictional recreation of the American Old West in 1899, Red Dead Redemption 2 focuses on the life of Arthur Morgan and his position in the notorious Van der Linde gang. The game follows the gang's decline as they are pursued by lawmen, fellow gangs and Pinkerton agents. The narrative revolves around the characters of Dutch van der Linde, John Marston and Micah Bell in addition to Morgan. Red Dead Redemption 2 is set in an open world consisting of five American regions, which the player can explore as they proceed with the story, and can be played through both third-person and first-person view. As Arthur Morgan, players can interact with the game world in several ways, including story missions, side quests, challenges, randomized events, and hunting. An Honor system, returning from the previous game, changes accordingly to the player's actions towards non-player characters. -Red Dead Wiki</description>
+		</about>
+		<contact.php>
+			<title>Contact info</title>
+			<description>E-mail: Crbnll12200@gmail.com</description>
+			<description>Phone: +639664295747</description>
+			<button href ="#scroll">About me</button>
+			<image1>
+				<p5 src = "assets/img/06.jpg">Image 1</p5>
+				<subject>Roi Jewel H. Carbonell</subject>
+				<description>I am a student at Marinduque State College. I made this website because I love playing Red Dead Redemption 2, at first I taught of it like it was just another game to play but I was very wrong. The game is a TRIPLE A GAME MASTERPIECE!!. At my first playthrough I didn't paymuch attention to the world, environment, gameplay, dialouges, characters, interactions and just stopped playing it for months.. but my second playthrough I wen't and play it slow and I was overwhelmed by the game. The Graphics, The Characters, The Story, The Environment, The Randomness, The NPC Dialogues, The HORSES!!, Everything... It was perfect, this game was my vision of the future of games, I cannot express my feeling of enjoyment, sadness and fun with just a paragraph. This game even helped me through depression. "When the time comes, Run... and don't look back" -Arthur Morgan</description>
+			</image1>
+		</contact.php>
+		<signup.php>
+			<title>Sign up</title>
+			<form>
+				<formgroup>Username</formgroup>
+				<formgroup>Email</formgroup>
+				<formgroup>Password</formgroup>
+				<button>Register</button>
+				<description>Already have an account?</description>
+				<description href ="Login.php">Sign in</description>
+			</form>
+		</signup.php>
+		<Login.php>
+			<title>Log In</title>
+			<form>
+				<formgroup>Username</formgroup>
+				<formgroup>Password</formgroup>
+				<description>Remember me?</description>
+				<button href = "profile.php">Log in</button>
+				<description href ="#">Forgot Password?</description>
+			</form>
+		</Login.php>
+		<buynow.php>
+			<image1 href ="https://www.rockstargames.com/newswire/article/9k1248838o1892/The-Red-Dead-Redemption-2-Special-Edition-Ultimate-Edition-and-Collect">Image 1</image1>
+			<form>
+				<formgroup>Select Platform</formgroup>
+				<select>
+					<option>PC Download</option>
+					<option>XBOX Digital</option>
+					<option>Play Station 4 Digital</option>
+				</select>
+				<button href ="#">Buy Now</button>
+			</form>
+		</buynow.php>
+		<profile.php>
+			<title>!WANTED!</title>
+			<description>DEAD OR ALIVE</description>
+			<image1>
+				<p5 src = "assets/img/06.jpg">Image 1</p5>
+				<user src = "ses_username">user name</user>
+				<description>Baptismal name is UNKOWN at this time, but he is WANTED FOR MURDER, ROBBERY, FRAUD, ASSULT and THEFT</description>
+				<description>Current Reward is $$$$$$</description>
+				<button href = "#">Play Now</button>
+			</image1>
+		</profile.php>
+
+
+	</body>
+	<footer>
+		<EsrbRating href = "https://www.esrb.org/">RATED M</EsrbRating>
+		<Copright href = "https://www.copyright.gov/">Red Dead Redemption Online</Copright>
+	</footer>
+</RedDeadRedemptionOnline>
