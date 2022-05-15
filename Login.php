@@ -39,7 +39,7 @@
                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                         <li class="nav-item"><a class="nav-link" href="signup.php">Sign Up</a></li>
                         <li class="nav-item"><a class="nav-link" href="Login.php">Log In</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Buy Now</a></li>         
+                        <li class="nav-item"><a class="nav-link" href="buynow.php">Buy Now</a></li>         
                     </ul>
                 </div>
             </div>

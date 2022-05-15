@@ -11375,4 +11375,27 @@ header.masthead .masthead-content .masthead-subheading {
   .form-control{
     width: 500px;
   }
-  
+  .buynform-group{
+    align-items: center;
+    padding-right: auto;
+    padding-left: auto;
+  }
+  .Product{
+    align-items: center;
+    padding-right: auto;
+    padding-left: auto;
+  }
+  .Game{
+    width: 800px;
+  }
+  .Select{
+    width: 500px;
+    margin: 10px;
+    padding-left: auto;
+    padding-right: auto;
+  }
+  .Select{
+    min-width: 150px;
+    width: auto;
+  }
+

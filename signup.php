@@ -39,7 +39,7 @@
                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                         <li class="nav-item"><a class="nav-link" href="signup.php">Sign Up</a></li>
                         <li class="nav-item"><a class="nav-link" href="Login.php">Log In</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Buy Now</a></li>
+                        <li class="nav-item"><a class="nav-link" href="buynow.php">Buy Now</a></li>
                     </ul>
                 </div>
             </div>
@@ -62,12 +62,6 @@
                         <input type="password" class="form-control" placeholder="Password" name="form_password"required>
                      </div>
                      <div class="form-group d-md-flex">
-                        <div class="w-50">
-                                <label class="checkbox-wrap checkbox-primary">
-                                      <input type="checkbox" checked>Remember me?
-                                      <span class="checkmark"></span>
-                                </label>
-                                </div>
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary rounded submit p-3 px-5" name="login_button">Register</button>

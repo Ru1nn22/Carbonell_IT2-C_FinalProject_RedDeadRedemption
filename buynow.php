@@ -39,8 +39,7 @@
                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
                         <li class="nav-item"><a class="nav-link" href="signup.php">Sign Up</a></li>
                         <li class="nav-item"><a class="nav-link" href="Login.php">Log In</a></li>
-                        <li class="nav-item"><a class="nav-link" href="buynow.php">Buy Now</a></li>
-                    </ul>
+                        <li class="nav-item"><a class="nav-link" href="#!">Buy Now</a></li>         
                     </ul>
                 </div>
             </div>
@@ -49,32 +48,28 @@
         <header class="masthead text-center text-white">
             <div class="masthead-content">
                 <div class="container px-5">
-                    <h1 class="masthead-heading mb-0">Contact info</h1>
-                    <p style="font-size: 125%;">E-mail: Crbnll12200@gmail.com</p>
-                    <p style="font-size: 125%;">Phone: +639664295747</p>
-                    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">About Me</a>
+                    <div class="Product"><img class="Game" src="assets/img/Game.jpeg" href="https://www.rockstargames.com/newswire/article/9k1248838o1892/The-Red-Dead-Redemption-2-Special-Edition-Ultimate-Edition-and-Collect">
+                    <!-- Buy Now form -->
+
+                    <form class="Buy-form" method="#">
+                    <div class="Select">
+                    <label>Select Platform </label>
+                    <select>
+                        <option value="PC Download">PC Download</option>
+                        <option value="XBOX Digital">XBOX Digital</option>
+                        <option value="Play Station 4 Digital">Play Station 4 Digital</option>
+                    </select>
+                    </div>
+                    <div class="form-group">
+                    <button type="submit" class="btn btn-primary rounded submit p-3 px-5" name="login_button">Buy Now</button>
+                </div>
+                </form>
+
+                </br>
                 </div>
             </div>
         </header>
-
-        <!-- Content section 1-->
-        <section id="scroll">
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/06.jpg" alt="..." /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Roi Jewel H. Carbonell</h2>
-                            <p>I am a student at Marinduque State College. I made this website because I love playing Red Dead Redemption 2, at first I taught of it like it was just another game to play but I was very wrong. The game is a TRIPLE A GAME MASTERPIECE!!. At my first playthrough I didn't paymuch attention to the world, environment, gameplay, dialouges, characters, interactions and just stopped playing it for months.. but my second playthrough I wen't and play it slow and I was overwhelmed by the game. The Graphics, The Characters, The Story, The Environment, The Randomness, The NPC Dialogues, The HORSES!!, Everything... It was perfect, this game was my vision of the future of games, I cannot express my feeling of enjoyment, sadness and fun with just a paragraph. This game even helped me through depression. "When the time comes, Run... and don't look back"  -Arthur Morgan
-                                
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    
     </br>
     </br>
     </br>
