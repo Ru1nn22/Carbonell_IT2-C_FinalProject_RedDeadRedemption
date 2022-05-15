@@ -11328,7 +11328,7 @@ header.masthead {
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
-  height: 1000px;
+  height: 1300px;
 
 }
 header.masthead .masthead-content {
@@ -11359,7 +11359,12 @@ header.masthead .masthead-content .masthead-subheading {
     height:  auto;
   }
   .Footer-esrb {
-   width: 150px;
+   width: 200px;
    margin-left: auto;
    margin-right: auto;
 }
+  .MoreNews{
+    marin-left: auto;
+    marin-right: auto;
+    align-items: center;
+  }

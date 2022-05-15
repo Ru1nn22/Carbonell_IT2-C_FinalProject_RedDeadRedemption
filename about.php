@@ -37,9 +37,11 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.php">News</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="login.php">Log In</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Sign Up</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Log In</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Buy Now</a></li>
                     </ul>
                 </div>
@@ -51,6 +53,7 @@
                 <div class="container px-5">
                     <h1 class="masthead-heading mb-0">About</h1>
                     <h2 class="masthead-subheading mb-0">Red Dead Redemption</h2>
+                </br>
                     <p>America, 1899. The end of the Wild West era has begun. After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him.</p>
                 </div>
             </div>

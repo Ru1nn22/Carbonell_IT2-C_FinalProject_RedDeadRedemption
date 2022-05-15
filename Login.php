@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
     <!-- header -->
@@ -33,15 +34,42 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.php">News</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="login.php">Log In</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Sign Up</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Log In</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Buy Now</a></li>
+                    </ul>
                     </ul>
                 </div>
             </div>
         </nav>
+        <!-- Header-->
+        <header class="masthead text-center text-white">
+            <div class="masthead-content">
+                <div class="container px-5">
+                    <h1 class="masthead-heading mb-0">Login</h1>
+                </div>
+            </div>
+        </header>
+    </br>
+    </br>
+    </br>
+    </br>
+    </br>
 
-        
-     </body>
- </head>
+
+        <!-- Footer-->
+        <footer class="py-5 bg-black">
+            <div class="Footer-esrb"><a href="https://www.esrb.org/"><img class="img-fluid" src="assets/img/esrb.png"></a></div> </br>
+            <div class="container px-5"><p class="m-0 text-center text-white small"><a href="https://www.copyright.gov/"> Copyright &copy; RED DEAD REDEMPTION ONLINE 2022</a> </p></div>
+        </footer>
+
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
