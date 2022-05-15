@@ -34,10 +34,10 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="index.php">News</a></li>
+                        <li class="nav-item"><a class="nav-link" href="news.php">News</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Sign Up</a></li>
+                        <li class="nav-item"><a class="nav-link" href="signup.php">Sign Up</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Log In</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Buy Now</a></li>
                     </ul>
@@ -50,6 +50,9 @@
             <div class="masthead-content">
                 <div class="container px-5">
                     <h1 class="masthead-heading mb-0">Contact info</h1>
+                    <p style="font-size: 125%;">E-mail: Crbnll12200@gmail.com</p>
+                    <p style="font-size: 125%;">Phone: +639664295747</p>
+                    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">About Me</a>
                 </div>
             </div>
         </header>
@@ -64,11 +67,9 @@
                     <div class="col-lg-6 order-lg-1">
                         <div class="p-5">
                             <h2 class="display-4">Roi Jewel H. Carbonell</h2>
-                            <p>FB: www.facebook.com/RoiJewelCarbonell</p>
-                            <p>Email: crbnll12200@gmail.com</p>
-                            <p>Phone 1: 0966-429-5747</p>
-                            <p>Phone 2: 0916-374-4411</p>
-                        </br>
+                            <p>I am a student at Marinduque State College. I made this website because I love playing Red Dead Redemption 2, at first I taught of it like it was just another game to play but I was very wrong. The game is a TRIPLE A GAME MASTERPIECE!!. At my first playthrough I didn't paymuch attention to the world, environment, gameplay, dialouges, characters, interactions and just stopped playing it for months.. but my second playthrough I wen't and play it slow and I was overwhelmed by the game. The Graphics, The Characters, The Story, The Environment, The Randomness, The NPC Dialogues, The HORSES!!, Everything... It was perfect, this game was my vision of the future of games, I cannot express my feeling of enjoyment, sadness and fun with just a paragraph. This game even helped me through depression. "When the time comes, Run... and don't look back"  -Arthur Morgan
+                                
+                            </p>
                         </div>
                     </div>
                 </div>

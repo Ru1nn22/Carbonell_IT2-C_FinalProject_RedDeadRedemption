@@ -53,10 +53,13 @@
 
                     <form class="login-form" method="#">
                         <div class="form-group"> 
-                         <input type="text" class="form-control rounded-left" placeholder="Username" name="form_username" required>
+                         <input type="text" class="form-control" placeholder="Username" name="form_username" required>
                         </div>
+                        <div class="form-group d-flex">
+                        <input type="email" class="form-control" placeholder="Email" name="form_email"required>
+                     </div>
                      <div class="form-group d-flex">
-                        <input type="password" class="form-control rounded-left" placeholder="Password" name="form_password"required>
+                        <input type="password" class="form-control" placeholder="Password" name="form_password"required>
                      </div>
                      <div class="form-group d-md-flex">
                         <div class="w-50">
@@ -65,9 +68,6 @@
                                       <span class="checkmark"></span>
                                 </label>
                                 </div>
-                        <div class="forgot">
-                                    <a href="#">Forgot Password</a>
-                        </div>
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary rounded submit p-3 px-5" name="login_button">Register</button>

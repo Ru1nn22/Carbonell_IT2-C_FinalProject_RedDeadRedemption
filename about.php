@@ -37,10 +37,10 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="index.php">News</a></li>
+                        <li class="nav-item"><a class="nav-link" href="news.php">News</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Sign Up</a></li>
+                        <li class="nav-item"><a class="nav-link" href="signup.php">Sign Up</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Log In</a></li>
                         <li class="nav-item"><a class="nav-link" href="#!">Buy Now</a></li>
                     </ul>
@@ -54,29 +54,16 @@
                     <h1 class="masthead-heading mb-0">About</h1>
                     <h2 class="masthead-subheading mb-0">Red Dead Redemption</h2>
                 </br>
-                    <p>America, 1899. The end of the Wild West era has begun. After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him.</p>
+                    <p>America, 1899. The end of the Wild West era has begun. After a robbery goes badly wrong in the western town of Blackwater, Arthur Morgan and the Van der Linde gang are forced to flee. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him. -Official Description</p> 
+
+                    <p> Red Dead Redemption 2 is a western-themed action-adventure video game developed and published by Rockstar Games. It is the third entry in the Red Dead series and a prequel to 2010's Red Dead Redemption and was released on October 26th, 2018 on PlayStation 4, Xbox One and on November 5th, 2019 for PC.
+
+                    Set in a fictional recreation of the American Old West in 1899, Red Dead Redemption 2 focuses on the life of Arthur Morgan and his position in the notorious Van der Linde gang. The game follows the gang's decline as they are pursued by lawmen, fellow gangs and Pinkerton agents. The narrative revolves around the characters of Dutch van der Linde, John Marston and Micah Bell in addition to Morgan.
+
+                    Red Dead Redemption 2 is set in an open world consisting of five American regions, which the player can explore as they proceed with the story, and can be played through both third-person and first-person view. As Arthur Morgan, players can interact with the game world in several ways, including story missions, side quests, challenges, randomized events, and hunting. An Honor system, returning from the previous game, changes accordingly to the player's actions towards non-player characters. -Red Dead Wiki</p>
                 </div>
             </div>
         </header>
-
-        <!-- Content section 1-->
-        <section id="scroll">
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center">
-                    <div class="col-lg-6 order-lg-2">
-                        <div class="p-5"><img class="img-fluid rounded-circle" src="assets/img/06.jpg" alt="..." /></div>
-                    </div>
-                    <div class="col-lg-6 order-lg-1">
-                        <div class="p-5">
-                            <h2 class="display-4">Roi Jewel H. Carbonell</h2>
-                            <p>I am a student at Marinduque State College. I made this website because I love playing Red Dead Redemption 2, at first I taught of it like it was just another game to play but I was very wrong. The game is a TRIPLE A GAME MASTERPIECE!!. At my first playthrough I didn't paymuch attention to the world, environment, gameplay, dialouges, characters, interactions and just stopped playing it for months.. but my second playthrough I wen't and play it slow and I was overwhelmed by the game. The Graphics, The Characters, The Story, The Environment, The Randomness, The NPC Dialogues, The HORSES!!, Everything... It was perfect, this game was my vision of the future of games, I cannot express my feeling of enjoyment, sadness and fun with just a paragraph. This game even helped me through depression. "When the time comes, Run... and don't look back"  -Arthur Morgan
-                                
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
     </br>
     </br>
     </br>

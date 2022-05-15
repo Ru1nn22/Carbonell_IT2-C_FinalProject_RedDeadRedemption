@@ -11363,8 +11363,15 @@ header.masthead .masthead-content .masthead-subheading {
    margin-left: auto;
    margin-right: auto;
 }
-  .MoreNews{
-    marin-left: auto;
-    marin-right: auto;
-    align-items: center;
+  .form-group{
+  padding-top: 10px;
+  padding: 10px;
+  background-color: 0 black;
+  opacity: 0.9;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  }
+  .form-control{
+    width: 500px;
   }
